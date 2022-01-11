@@ -4,7 +4,6 @@ import os
 app = typer.Typer()
 
 
-
 def main(
     message: str,
     time: str = typer.Option(
